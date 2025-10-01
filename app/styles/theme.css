@@ -1,80 +1,81 @@
 :root {
-  --oui-font-family: 'Nunito', sans-serif;
-  --oui-font-size-base: 16px;
+  --oui-font-family: 'Lato', sans-serif;
+  --oui-font-size-base: 12px;
 
   /* colors */
-  --oui-color-primary: 85 156 218;
-  --oui-color-primary-light: 135 206 250;
-  --oui-color-primary-darken: 40 120 200;
+  --oui-color-primary: 33 191 150;
+  --oui-color-primary-light: 57 220 200;
+  --oui-color-primary-darken: 10 150 120;
+  --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 100 173 238;
-  --oui-color-link-light: 160 213 255;
+  --oui-color-link: 0 220 180;
+  --oui-color-link-light: 100 255 217;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 245 88 148;
-  --oui-color-danger-light: 255 143 208;
-  --oui-color-danger-darken: 230 63 128;
+  --oui-color-danger: 245 97 139;
+  --oui-color-danger-light: 255 150 189;
+  --oui-color-danger-darken: 230 50 100;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 34 217 145;
-  --oui-color-success-light: 93 247 193;
-  --oui-color-success-darken: 20 187 120;
+  --oui-color-success: 41 233 169;
+  --oui-color-success-light: 100 255 200;
+  --oui-color-success-darken: 20 200 120;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 191 70;
-  --oui-color-warning-light: 255 226 118;
-  --oui-color-warning-darken: 240 165 50;
+  --oui-color-warning: 255 209 70;
+  --oui-color-warning-light: 255 230 120;
+  --oui-color-warning-darken: 240 180 50;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 88 131 173;
-  --oui-color-fill-active: 137 191 233;
+  --oui-color-fill: 40 40 40;
+  --oui-color-fill-active: 80 80 80;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 80 71 109;
-  --oui-color-base-3: 67 59 95;
-  --oui-color-base-4: 54 47 81;
-  --oui-color-base-5: 41 35 67;
-  --oui-color-base-6: 28 23 53;
+  --oui-color-base-1: 35 28 45;
+  --oui-color-base-2: 28 22 35;
+  --oui-color-base-3: 22 18 28;
+  --oui-color-base-4: 18 15 22;
+  --oui-color-base-5: 15 12 18;
+  --oui-color-base-6: 12 10 15;
   --oui-color-base-7: 51 46 66;
-  --oui-color-base-8: 38 33 49;
-  --oui-color-base-9: 25 21 35;
+  --oui-color-base-8: 8 6 10;
+  --oui-color-base-9: 5 4 7;
   --oui-color-base-10: 14 13 18;
 
   --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-line: 57 255 20;
 
-  --oui-color-trading-loss: 245 64 122;
+  --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 34 217 145;
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 40 150 150;
-  --oui-gradient-primary-end: 85 156 218;
+  --oui-gradient-primary-start: 10 150 50;
+  --oui-gradient-primary-end: 33 191 150;
 
-  --oui-gradient-secondary-start: 81 107 137;
-  --oui-gradient-secondary-end: 176 132 183;
+  --oui-gradient-secondary-start: 50 50 50;
+  --oui-gradient-secondary-end: 100 100 100;
 
-  --oui-gradient-success-start: 1 120 68;
-  --oui-gradient-success-end: 34 217 145;
+  --oui-gradient-success-start: 10 100 50;
+  --oui-gradient-success-end: 41 233 169;
 
-  --oui-gradient-danger-start: 153 60 76;
-  --oui-gradient-danger-end: 245 88 148;
+  --oui-gradient-danger-start: 150 50 50;
+  --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 100 150 200;
-  --oui-gradient-brand-end: 150 200 250;
+  --oui-gradient-brand-start: 10 100 50;
+  --oui-gradient-brand-end: 33 191 150;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 200 150 0;
-  --oui-gradient-warning-end: 255 191 70;
+  --oui-gradient-warning-start: 150 100 50;
+  --oui-gradient-warning-end: 255 209 70;
 
-  --oui-gradient-neutral-start: 40 40 40;
-  --oui-gradient-neutral-end: 80 80 80;
+  --oui-gradient-neutral-start: 20 20 20;
+  --oui-gradient-neutral-end: 40 40 40;
 
   /* rounded */
   --oui-rounded-sm: 2px;
@@ -94,6 +95,6 @@
 }
 
 html, body {
-  font-family: 'Nunito', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 12px !important;
 }
