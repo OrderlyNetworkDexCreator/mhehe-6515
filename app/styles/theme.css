@@ -1,6 +1,6 @@
 :root {
   --oui-font-family: 'Lato', sans-serif;
-  --oui-font-size-base: 14px;
+  --oui-font-size-base: 16px;
 
   /* colors */
   --oui-color-primary: 33 191 150;
@@ -96,5 +96,5 @@
 
 html, body {
   font-family: 'Lato', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
